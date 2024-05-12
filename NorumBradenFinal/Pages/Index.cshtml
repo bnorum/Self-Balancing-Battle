@@ -1,0 +1,112 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Battle page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG Battle</title>
+    <link rel="stylesheet" href="css/site.css">
+    <script src="js/Battle.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <div id="battle-log">
+                <p>Battle Recap will take place here... </p>
+            </div>
+        </div>
+        <div class="column" style="text-align: center;">
+            <img src="images/skel.jpg" alt="Placeholder Image" width="200" height="200">
+            <p id="enemystats">This is the third column with some text.</p>
+        </div>
+        <div class="column" id="playerStatistics">
+            @{
+                var playerStats = ViewData["PlayerStats"] as Dictionary<string, int>;
+                var enemyStats = ViewData["EnemyStats"] as Dictionary<string, int>;
+            }
+
+            <!-- Display player values -->
+            <p>Player Max Health: @playerStats["maxhp"]</p>
+            <p>Player Max Mana: @playerStats["maxmana"]</p>
+            <p>Player Attack Power: @playerStats["attackPower"]</p>
+            <p>Player Magic Power: @playerStats["magicPower"]</p>
+            <p>Total Magic Attacks: @playerStats["totalMagicAttacks"]</p>
+            <p>Total Attacks: @playerStats["totalAttacks"]</p>
+
+            <!-- Display enemy values -->
+            <p>Enemy Max Health: @enemyStats["maxhp"]</p>
+            <p>Enemy Attack Power: @enemyStats["attackPower"]</p>
+        </div>
+    </div>
+    <div class="button-container">
+        <div id="currstats"></div>
+        <button id="attackbutton" onclick="attack()">Attack</button>
+        <button id="magicbutton" onclick="magicAttack()">Magic Attack</button>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="TblGameStat.Gamestatsid" class="control-label"></label>
+                    <input asp-for="TblGameStat.Gamestatsid" class="form-control" />
+                    <span asp-validation-for="TblGameStat.Gamestatsid" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TblGameStat.Turnstaken" class="control-label"></label>
+                    <input asp-for="TblGameStat.Turnstaken" class="form-control" />
+                    <span asp-validation-for="TblGameStat.Turnstaken" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TblGameStat.Damagetaken" class="control-label"></label>
+                    <input asp-for="TblGameStat.Damagetaken" class="form-control" />
+                    <span asp-validation-for="TblGameStat.Damagetaken" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TblGameStat.Name" class="control-label"></label>
+                    <input asp-for="TblGameStat.Name" class="form-control" />
+                    <span asp-validation-for="TblGameStat.Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TblGameStat.Player.Attack" class="control-label"></label>
+                    <input asp-for="TblGameStat.Player.Attack" class="form-control" />
+                    <span asp-validation-for="TblGameStat.Player.Attack" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TblGameStat.Player.Health" class="control-label"></label>
+                    <input asp-for="TblGameStat.Player.Health" class="form-control" />
+                    <span asp-validation-for="TblGameStat.Player.Health" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TblGameStat.Player.Magicpower" class="control-label"></label>
+                    <input asp-for="TblGameStat.Player.Magicpower" class="form-control" />
+                    <span asp-validation-for="TblGameStat.Player.Magicpower" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TblGameStat.Player.Mana" class="control-label"></label>
+                    <input asp-for="TblGameStat.Player.Mana" class="form-control" />
+                    <span asp-validation-for="TblGameStat.Player.Mana" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TblGameStat.Enemy.Enemyhealth" class="control-label"></label>
+                    <input asp-for="TblGameStat.Enemy.Enemyhealth" class="form-control" />
+                    <span asp-validation-for="TblGameStat.Enemy.Enemyhealth" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TblGameStat.Enemy.Enemyattack" class="control-label"></label>
+                    <input asp-for="TblGameStat.Enemy.Enemyattack" class="form-control" />
+                    <span asp-validation-for="TblGameStat.Enemy.Enemyattack" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

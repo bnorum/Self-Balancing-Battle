@@ -1,0 +1,115 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProjectNorumBraden
+build_property.RootNamespace = ProjectNorumBraden
+build_property.ProjectDir = C:\Users\15086\source\repos\NorumBradenFinal\NorumBradenFinal\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\15086\source\repos\NorumBradenFinal\NorumBradenFinal
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/15086/source/repos/NorumBradenFinal/NorumBradenFinal/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/15086/source/repos/NorumBradenFinal/NorumBradenFinal/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/15086/source/repos/NorumBradenFinal/NorumBradenFinal/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/15086/source/repos/NorumBradenFinal/NorumBradenFinal/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/15086/source/repos/NorumBradenFinal/NorumBradenFinal/Pages/tblEnemy/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGJsRW5lbXlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/15086/source/repos/NorumBradenFinal/NorumBradenFinal/Pages/tblEnemy/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGJsRW5lbXlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/15086/source/repos/NorumBradenFinal/NorumBradenFinal/Pages/tblEnemy/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGJsRW5lbXlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/15086/source/repos/NorumBradenFinal/NorumBradenFinal/Pages/tblEnemy/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGJsRW5lbXlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/15086/source/repos/NorumBradenFinal/NorumBradenFinal/Pages/tblEnemy/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGJsRW5lbXlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/15086/source/repos/NorumBradenFinal/NorumBradenFinal/Pages/tblGameStat/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGJsR2FtZVN0YXRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/15086/source/repos/NorumBradenFinal/NorumBradenFinal/Pages/tblGameStat/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGJsR2FtZVN0YXRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/15086/source/repos/NorumBradenFinal/NorumBradenFinal/Pages/tblGameStat/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGJsR2FtZVN0YXRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/15086/source/repos/NorumBradenFinal/NorumBradenFinal/Pages/tblGameStat/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGJsR2FtZVN0YXRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/15086/source/repos/NorumBradenFinal/NorumBradenFinal/Pages/tblGameStat/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGJsR2FtZVN0YXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/15086/source/repos/NorumBradenFinal/NorumBradenFinal/Pages/tblPlayer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGJsUGxheWVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/15086/source/repos/NorumBradenFinal/NorumBradenFinal/Pages/tblPlayer/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGJsUGxheWVyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/15086/source/repos/NorumBradenFinal/NorumBradenFinal/Pages/tblPlayer/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGJsUGxheWVyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/15086/source/repos/NorumBradenFinal/NorumBradenFinal/Pages/tblPlayer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGJsUGxheWVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/15086/source/repos/NorumBradenFinal/NorumBradenFinal/Pages/tblPlayer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGJsUGxheWVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/15086/source/repos/NorumBradenFinal/NorumBradenFinal/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/15086/source/repos/NorumBradenFinal/NorumBradenFinal/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/15086/source/repos/NorumBradenFinal/NorumBradenFinal/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-tiwz46iho0

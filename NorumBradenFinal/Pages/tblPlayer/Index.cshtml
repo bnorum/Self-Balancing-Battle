@@ -1,0 +1,58 @@
+﻿@page
+@model NorumBradenFinal.Pages.tblPlayer.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Previous Player Stats</h1>
+<!--<
+<p>
+    a asp-page="Create">Create New</a>
+</p>
+-->
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Attack
+            </th>
+            <th>
+                Max Health
+            </th>
+            <th>
+                Magic Power
+            </th>
+            <th>
+                Max Mana
+            </th>
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.TblPlayer) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Attack)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Health)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Magicpower)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mana)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Playerid">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Playerid">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Playerid">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

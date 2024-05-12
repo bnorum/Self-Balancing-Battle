@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\15086\\source\\repos\\NorumBradenFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70A09F2B-E844-4EE5-B728-3CCA65B935A5}|NorumBradenFinal\\ProjectNorumBraden.csproj|c:\\users\\15086\\source\\repos\\norumbradenfinal\\norumbradenfinal\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A09F2B-E844-4EE5-B728-3CCA65B935A5}|NorumBradenFinal\\ProjectNorumBraden.csproj|solutionrelative:norumbradenfinal\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A09F2B-E844-4EE5-B728-3CCA65B935A5}|NorumBradenFinal\\ProjectNorumBraden.csproj|c:\\users\\15086\\source\\repos\\norumbradenfinal\\norumbradenfinal\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70A09F2B-E844-4EE5-B728-3CCA65B935A5}|NorumBradenFinal\\ProjectNorumBraden.csproj|solutionrelative:norumbradenfinal\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A09F2B-E844-4EE5-B728-3CCA65B935A5}|NorumBradenFinal\\ProjectNorumBraden.csproj|c:\\users\\15086\\source\\repos\\norumbradenfinal\\norumbradenfinal\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{70A09F2B-E844-4EE5-B728-3CCA65B935A5}|NorumBradenFinal\\ProjectNorumBraden.csproj|solutionrelative:norumbradenfinal\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A09F2B-E844-4EE5-B728-3CCA65B935A5}|NorumBradenFinal\\ProjectNorumBraden.csproj|c:\\users\\15086\\source\\repos\\norumbradenfinal\\norumbradenfinal\\wwwroot\\js\\battle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{70A09F2B-E844-4EE5-B728-3CCA65B935A5}|NorumBradenFinal\\ProjectNorumBraden.csproj|solutionrelative:norumbradenfinal\\wwwroot\\js\\battle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A09F2B-E844-4EE5-B728-3CCA65B935A5}|NorumBradenFinal\\ProjectNorumBraden.csproj|c:\\users\\15086\\source\\repos\\norumbradenfinal\\norumbradenfinal\\pages\\tblgamestat\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70A09F2B-E844-4EE5-B728-3CCA65B935A5}|NorumBradenFinal\\ProjectNorumBraden.csproj|solutionrelative:norumbradenfinal\\pages\\tblgamestat\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A09F2B-E844-4EE5-B728-3CCA65B935A5}|NorumBradenFinal\\ProjectNorumBraden.csproj|c:\\users\\15086\\source\\repos\\norumbradenfinal\\norumbradenfinal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70A09F2B-E844-4EE5-B728-3CCA65B935A5}|NorumBradenFinal\\ProjectNorumBraden.csproj|solutionrelative:norumbradenfinal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\15086\\source\\repos\\NorumBradenFinal\\NorumBradenFinal\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "NorumBradenFinal\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\15086\\source\\repos\\NorumBradenFinal\\NorumBradenFinal\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "NorumBradenFinal\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAcwDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-05T17:42:50.953Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\15086\\source\\repos\\NorumBradenFinal\\NorumBradenFinal\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "NorumBradenFinal\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\15086\\source\\repos\\NorumBradenFinal\\NorumBradenFinal\\Pages\\Index.cshtml",
+              "RelativeToolTip": "NorumBradenFinal\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAABAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T00:45:37.447Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\15086\\source\\repos\\NorumBradenFinal\\NorumBradenFinal\\Pages\\tblGameStat\\Create.cshtml",
+              "RelativeDocumentMoniker": "NorumBradenFinal\\Pages\\tblGameStat\\Create.cshtml",
+              "ToolTip": "C:\\Users\\15086\\source\\repos\\NorumBradenFinal\\NorumBradenFinal\\Pages\\tblGameStat\\Create.cshtml",
+              "RelativeToolTip": "NorumBradenFinal\\Pages\\tblGameStat\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T12:22:39.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Battle.js",
+              "DocumentMoniker": "C:\\Users\\15086\\source\\repos\\NorumBradenFinal\\NorumBradenFinal\\wwwroot\\js\\Battle.js",
+              "RelativeDocumentMoniker": "NorumBradenFinal\\wwwroot\\js\\Battle.js",
+              "ToolTip": "C:\\Users\\15086\\source\\repos\\NorumBradenFinal\\NorumBradenFinal\\wwwroot\\js\\Battle.js",
+              "RelativeToolTip": "NorumBradenFinal\\wwwroot\\js\\Battle.js",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAqwGYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-08T16:23:31.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\15086\\source\\repos\\NorumBradenFinal\\NorumBradenFinal\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "NorumBradenFinal\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\15086\\source\\repos\\NorumBradenFinal\\NorumBradenFinal\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "NorumBradenFinal\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T02:53:03.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\15086\\source\\repos\\NorumBradenFinal\\NorumBradenFinal\\appsettings.json",
+              "RelativeDocumentMoniker": "NorumBradenFinal\\appsettings.json",
+              "ToolTip": "C:\\Users\\15086\\source\\repos\\NorumBradenFinal\\NorumBradenFinal\\appsettings.json",
+              "RelativeToolTip": "NorumBradenFinal\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-08T18:23:36.759Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

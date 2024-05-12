@@ -1,0 +1,54 @@
+html {
+  font-size: 14px;
+  
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+
+.navbar {
+    background-color: #111111;
+
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+td {
+    color: white;
+
+}
+body {
+    margin-bottom: 60px;
+    background-color: #111111;
+    color: #ffffff;
+}
+
+th {
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 400px; /* Set the desired height for the column */
+    overflow-y: auto; /* Add scrollbars if the content exceeds the height */
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+

@@ -1,0 +1,47 @@
+﻿@page
+@model NorumBradenFinal.Pages.tblPlayer.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>TblPlayer</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TblPlayer.Attack)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TblPlayer.Attack)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TblPlayer.Health)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TblPlayer.Health)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TblPlayer.Magicpower)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TblPlayer.Magicpower)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TblPlayer.Mana)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TblPlayer.Mana)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="TblPlayer.Playerid" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

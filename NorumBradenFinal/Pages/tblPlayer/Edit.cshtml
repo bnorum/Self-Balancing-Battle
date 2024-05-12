@@ -1,0 +1,51 @@
+﻿@page
+@model NorumBradenFinal.Pages.tblPlayer.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>TblPlayer</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="TblPlayer.Playerid" />
+            <div class="form-group">
+                <label asp-for="TblPlayer.Attack" class="control-label"></label>
+                <input asp-for="TblPlayer.Attack" class="form-control" />
+                <span asp-validation-for="TblPlayer.Attack" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TblPlayer.Health" class="control-label"></label>
+                <input asp-for="TblPlayer.Health" class="form-control" />
+                <span asp-validation-for="TblPlayer.Health" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TblPlayer.Magicpower" class="control-label"></label>
+                <input asp-for="TblPlayer.Magicpower" class="form-control" />
+                <span asp-validation-for="TblPlayer.Magicpower" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TblPlayer.Mana" class="control-label"></label>
+                <input asp-for="TblPlayer.Mana" class="form-control" />
+                <span asp-validation-for="TblPlayer.Mana" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

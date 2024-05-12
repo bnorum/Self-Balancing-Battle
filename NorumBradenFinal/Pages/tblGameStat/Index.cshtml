@@ -1,0 +1,97 @@
+﻿@page
+@model NorumBradenFinal.Pages.tblGameStats.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Previous Battles</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Player Name
+            </th>
+            <th>
+                Player ID
+            </th>
+            <th>
+                Player Attack
+            </th>
+            <th>
+                Player Magic Damage
+            </th>
+            <th>
+                Player Max Health
+            </th>
+            <th>
+                Player Max Mana
+            </th>
+            <th>
+                Enemy ID
+            </th>
+            <th>
+                Enemy Health
+            </th>
+            <th>
+                Enemy Attack
+            </th>
+            <th>
+                Turns Taken
+            </th>
+            <th>
+                Damage Taken
+            </th>
+            
+                      
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.TblGameStat) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Player.Playerid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Player.Attack)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Player.Magicpower)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Player.Health)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Player.Mana)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Enemy.Enemyid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Enemy.Enemyhealth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Enemy.Enemyattack)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Turnstaken)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Damagetaken)
+            </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.Gamestatsid">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@item.Gamestatsid">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.Gamestatsid">Delete</a>
+                </td>
+            
+        </tr>
+}
+    </tbody>
+</table>
