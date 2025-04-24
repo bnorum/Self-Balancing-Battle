@@ -64,4 +64,4 @@ Feel free to customize this `README.md` further to match any additional features
 
 ~~Try it out: https://bradynorum.com/self-balancing-battle~~
 
-Professor wiped my database, no longer works.
+Professor wiped my database, no longer works. Stay tuned as of (04/24/2025)
