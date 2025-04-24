@@ -4,18 +4,18 @@
 
 ## 🧩 Features
 
-- **Dynamic Balancing**:Utilizes SQL queries to adjust battle parameters, ensuring fairness based on player history
-- **Web Interface**:Interactive frontend for initiating and viewing battles
-- **Modular Design**:Separation of concerns between frontend and backend for maintainability
-- **Data Persistence**:Stores player stats and battle outcomes in a structured database
+- **Dynamic Balancing**:Utilizes SQL queries to adjust battle parameters, ensuring fairness based on player history
+- **Web Interface**:Interactive frontend for initiating and viewing battles
+- **Modular Design**:Separation of concerns between frontend and backend for maintainability
+- **Data Persistence**:Stores player stats and battle outcomes in a structured database
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
- .NET Framework or .NET Core SK
- SQL Server or compatible database systm
- Node.js and npm (for frontend dependencie)
+ .NET Framework or .NET Core SDK
+ SQL Server or compatible database system
+ Node.js and npm (for frontend dependencies)
 
 ### Installation
 
@@ -28,12 +28,12 @@
 
 2. **Set up the database**:
 
-    Create a new database in your SQL Serve.
-    Run the provided SQL scripts in the `NorumBradenFinal` directory to set up tables and seed dat.
+    Create a new database in your SQL Server.
+    Run the provided SQL scripts in the `NorumBradenFinal` directory to set up tables and seed data.
 
 3. **Configure the application**:
 
-    Update the database connection string in the application's configuration file to match your setu.
+    Update the database connection string in the application's configuration file to match your setup.
 
 4. **Install frontend dependencies**:
 
@@ -44,23 +44,18 @@
 
 5. **Build and run the application**:
 
-    Use your preferred IDE or the command line to build and run the C# backen.
-    Serve the frontend using a development server or integrate it with the backen.
+    Use your preferred IDE or the command line to build and run the C# backend.
+    Serve the frontend using a development server or integrate it with the backend.
 
 ## 🛠️ Usage
-- Access the web interface through your browsr.- Register or log in to your player accout.- Initiate battles and view outcoms.- Monitor your statistics and progression over tie.
+- Access the web interface through your browser.
+- Register or log in to your player account.
+- Initiate battles and view outcomes. Monitor your statistics and progression over time.
 
-## 📁 Project Structure
-
-- `NorumBradenFinal`: Contains the main C# application source cde.
-- `node_modules`: Frontend dependencies managed by pm.
-- `.vs`: Visual Studio configuration fies.
-- `README.m`: Project documentaton.
-- `LICENS`: MIT License fle.
 
 ## 📄 Licese
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for detils.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
